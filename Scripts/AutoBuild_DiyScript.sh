@@ -4,10 +4,10 @@
 
 Firmware_Diy_Core() {
 
-	Author=AUTO
-	Author_URL=AUTO
+	Author=KingKong
+	Author_URL=“http://dualwan3.3322.org:88/”
 	Default_IP="192.168.1.1"
-	Banner_Message="Powered by AutoBuild-Actions"
+	Banner_Message="Powered by KingKong"
 
 	Short_Firmware_Date=true
 	Checkout_Virtual_Images=false
