@@ -59,18 +59,4 @@ CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-theme-argon=y
 
-CONFIG_PACKAGE_luci-app-openclash=y
-
-CONFIG_PACKAGE_luci-app-zerotier=n
-CONFIG_PACKAGE_luci-app-ipsec-vpnd=n
-CONFIG_PACKAGE_luci-app-qbittorrent_dynamic=n
-CONFIG_PACKAGE_luci-app-unblockmusic is not set
-CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go=n
-CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS=n
-CONFIG_PACKAGE_luci-app-qbittorrent=n
-CONFIG_PACKAGE_luci-app-qbittorrent_static=n
-
-CONFIG_PACKAGE_luci-app-vsftpd=n
-
-CONFIG_PACKAGE_luci-app-xlnetacc=n
 
