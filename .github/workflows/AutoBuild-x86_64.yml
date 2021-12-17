@@ -118,9 +118,9 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
         cd openwrt
         
-    - name: Install Helloword
+    - name: Install passwall
         run: |
-          echo "src-git helloworld https://github.com/fw876/helloworld" >> ./feeds.conf.default 
+          echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall" >> ./feeds.conf.default 
     - name: Install OpenClash
         run: |
           mkdir package/luci-app-openclash
