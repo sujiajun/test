@@ -116,14 +116,14 @@ jobs:
       run: |
         git clone -b $REPO_BRANCH $REPO_URL openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        cd openwrt
+        
     - name: Install Helloword
       run: |
         echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall" >> ./feeds.conf.default        
  
     - name: Update feeds
       run: |
-
+        cd openwrt
         ./scripts/feeds update -a
         ./scripts/feeds install -a
 
