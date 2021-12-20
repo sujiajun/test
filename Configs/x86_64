@@ -73,7 +73,7 @@ CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_luci-app-samba=y
 CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-theme-argon=y
-
+CONFIG_PACKAGE_luci-app-uhttpd=y
 
 
 
