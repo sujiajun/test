@@ -16,7 +16,7 @@
 # echo "iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/config/firewall/files/firewall.user
 # 修改主机名
 echo '修改机器名称'
-sed -i 's/OpenWrt/Aopen DE2700/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/MSG 1500/g' package/base-files/files/bin/config_generate
 # 时区修改
 #sed -i "s/timezone='UTC'/timezone='CST-8'/" package/base-files/files/bin/config_generate
 #sed -i "/timezone='CST-8'/a set system.@system[-1].zonename='Asia/Shanghai'" ./package/base-files/files/bin/config_generate
