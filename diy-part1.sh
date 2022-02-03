@@ -17,7 +17,6 @@
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 
-svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
-svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
-
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+svn co https://github.com/AlexZhuo/luci-app-bandwidthd.git
+svn co https://github.com/jerrykuku/luci-theme-argon.git
